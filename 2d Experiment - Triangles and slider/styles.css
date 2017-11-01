@@ -1,0 +1,24 @@
+body{
+  padding: 5%;
+  background-color: #F6E1B5;
+}
+
+.container{
+  margin: auto;
+  width: 50%;
+  padding: 5%;
+  min-width: 300px;
+  background: linear-gradient(to top, #E2BF81, #F6E1B5);
+}
+
+.container canvas{
+  display: block;
+  margin: auto;
+  background-color: #3C1B1F;
+}
+
+.container form{
+  margin: 5%;
+  padding: 1%;
+  text-align: center;
+}
