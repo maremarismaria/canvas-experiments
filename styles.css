@@ -1,0 +1,74 @@
+/*
+   Linear-gradients : CSS Gears by Solaiman Kmail - https://gradients.cssgears.com/
+   Custom range slider : W3Schools - https://www.w3schools.com/howto/howto_js_rangeslider.asp
+*/
+
+body{
+    background-color: #184e68;
+}
+
+#container{
+    position: relative;
+    margin: 0 auto;
+    margin-top: 20px;
+    width: 710px;
+    height: 600px;
+    background: linear-gradient(135deg, #184e68 0%,#57ca85 100%);
+}
+
+#canvas{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    height: 500px;
+    width: 500px;
+    background-color: #ffffff;
+}
+
+#output{
+    position: relative;
+    width: 150px;
+    height: 450px;
+    top: 20px;
+    left: 540px;
+    padding-top: 50px;
+    background-color:#ffffff;
+    text-align: center;
+    font-family: Courier New, Courier, monospace;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+#number{
+    position: absolute;
+    top: 550px;
+    left: 25%;
+    margin: 0 auto;
+}
+
+.slider {
+    -webkit-appearance: none;
+    width: 50%;
+    height: 15px;
+    border-radius: 5px;
+    background: #ffffff;
+    outline: none;
+}
+
+.slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 25px;
+    height: 25px;
+    border-radius: 5px;
+    background: #184e68;
+    cursor: pointer;
+}
+
+.slider::-moz-range-thumb {
+    width: 25px;
+    height: 25px;
+    border-radius: 5px;
+    background: #184e68;
+    cursor: pointer;
+}
