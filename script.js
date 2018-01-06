@@ -1,3 +1,4 @@
+
 var canvas = document.getElementById("canvas");
 var ctx = canvas.getContext("2d");
 
@@ -21,16 +22,14 @@ function getValue(elementId){
 function fibonacciSequence(number){
 
     var sequence = [];
-    var j = 0;
 
     for (var i = 0; i <= number; i++) {
         
-        if(i < 3){
-            sequence.push(j);
-            j++;
+        if(i < 2){
+            sequence.push(i);
         }
 
-        if(i > 2 && i < number){
+        if(i > 1){
             var penultimate = sequence[sequence.length - 2];
             var last = sequence[sequence.length - 1];
             sequence.push(penultimate + last);
